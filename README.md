@@ -66,9 +66,9 @@ On iteration t:
     Sdb = b2*Sdb + (1-b2)*db**2
 
     # Correcting the moments with bias term.
-    VdW_cor = VdW/(1-b1^T)
+    VdW_cor = VdW/(1-b1^t)
     Vdb_cor = Vdb/(1-b1^t)
-    SdW_cor = SdW/(1-b2^T)
+    SdW_cor = SdW/(1-b2^t)
     Sdb_cor = Sdb/(1-b2^t)
 
     # Gradient descent step.
